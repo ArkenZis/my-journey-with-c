@@ -3,11 +3,12 @@
 
 int main()
 {   
+    // Asking for Name
     char name[20];
-    printf("Enter your name: \n");
+    printf("Enter your Full Name: \n");
     fgets(name, 20, stdin);
 
-    printf("Your name is %s\n", name);
+    
 
      // Asking for grade
     char grade;
@@ -15,7 +16,7 @@ int main()
     printf("Enter your grade: ");
     scanf("%c", &grade);
 
-    printf("Your grade is: %c\n", grade);
+    
 
     // Asking for GPA
     double gpa;
@@ -23,7 +24,7 @@ int main()
     printf("Enter your gpa: \n");
     scanf("%lf", &gpa);
 
-    printf("Your gpa is: %f\n", gpa);
+    
 
     // Asking for age
     int age;
@@ -31,16 +32,20 @@ int main()
     printf("Enter your age: \n");
     scanf("%d", &age);
 
-    printf("You are %d years old\n", age);
+    
 
+    // Asking for Favourite Animal
     char favAnimal[20];
 
     printf("Enter the name of your Favourite Animal: \n");
     scanf("%s", favAnimal);
 
+    printf("\nYour Full Name is %s", name);
+    printf("You are %d years old\n", age);
     printf("Your Favourite Animal is %s\n", favAnimal);
-
- 
+    printf("Your grade is: %c\n", grade);
+    
+    printf("Your gpa is: %f\n", gpa);   
 
     return 0;
 }
