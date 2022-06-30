@@ -1,3 +1,5 @@
+// This exercise is to practice and show the different types of User Input Functions
+
 #include <stdio.h>
 #include <stdlib.h>
 
