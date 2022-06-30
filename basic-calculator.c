@@ -5,16 +5,16 @@ int main()
 {
     // This is the start of the Basic Calculator Program
 
-    int num1;
-    int num2;
+    double num1;
+    double num2;
 
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    scanf("%lf", &num1);
 
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%lf", &num2);
 
-    printf("Answer: %d\n", num1 + num2);
+    printf("Answer: %f\n", num1 + num2);
 
     return 0;
 }
