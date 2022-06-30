@@ -27,12 +27,12 @@ int main()
 
     printf("You are %d years old\n", age);
 
-    char name[20];
+    char favAnimal[20];
 
-    printf("Enter your name: \n");
-    scanf("%s", name);
+    printf("Enter the name of your Favourite Animal: \n");
+    scanf("%s", favAnimal);
 
-    printf("Your name is %s\n", name);
+    printf("Your Favourite Animal is %s\n", favAnimal);
 
     return 0;
 }
