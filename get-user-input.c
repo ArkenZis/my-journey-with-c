@@ -3,6 +3,14 @@
 
 int main()
 {
+     // Asking for grade
+    char grade;
+    
+    printf("Enter your grade: ");
+    scanf("%c", &grade);
+
+    printf("Your grade is: %c\n", grade);
+
     // Asking for GPA
     double gpa;
 
