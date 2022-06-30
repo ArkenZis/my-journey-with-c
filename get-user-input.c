@@ -27,5 +27,12 @@ int main()
 
     printf("You are %d years old\n", age);
 
+    char name[20];
+
+    printf("Enter your name: \n");
+    scanf("%s", name);
+
+    printf("Your name is %s\n", name);
+
     return 0;
 }
