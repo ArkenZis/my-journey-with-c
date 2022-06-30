@@ -8,9 +8,18 @@ int main()
     char pluralNoun[20];
     char celebrity[20];
 
-    printf("Roses are {color}\n");
-    printf("{plural-noun} are blue\n");
-    printf("I love {celebrity}\n");
+    printf("Enter a color: ");
+    scanf("%s", color);
+
+    printf("Enter a plural noun: ");
+    scanf("%s", pluralNoun);
+
+    printf("Enter a celebrity: ");
+    scanf("%s", celebrity);
+
+    printf("Roses are %s\n", color);
+    printf("%s are blue\n", pluralNoun);
+    printf("I love %s\n", celebrity);
 
     return 0;
 }
