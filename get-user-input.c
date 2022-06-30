@@ -3,12 +3,12 @@
 
 int main()
 {
-    int age;
+    double gpa;
 
-    printf("Enter your age: \n");
-    scanf("%d", &age);
+    printf("Enter your gpa: \n");
+    scanf("%lf", &gpa);
 
-    printf("You are %d years old\n", age);
+    printf("Your gpa is: %f\n", gpa);
 
     return 0;
 }
